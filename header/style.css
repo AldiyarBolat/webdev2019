@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+
+@import 'css/bootstrap/bootstrap.min.css';
+@import 'css/others/magnific-popup.css';
+@import 'css/others/owl.carousel.min.css';
+@import 'css/others/font-awesome.min.css';
+@import 'css/others/pe-icon-7-stroke.css';
+
+/* CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #2a2a2a;
+    line-height: 1.3;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+.almaty-img {
+    background-position: center center;
+    background-size: cover;
+    height: 100px;
+}
+
+.my-btn {
+    min-width: 180px;
+    height: 52px;
+    background-color: #7643ea;
+    border-radius: 0;
+    padding: 0 15px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+}
+
+/* Header & Menu Area CSS */
+
+.header_area {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    height: 120px;
+    top: 0;
+    left: 0;
+    border-bottom: 0px;
+    padding: 0 30px;
+}
+
+.navbar-brand {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 700;
+	margin-right: 70px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.navbar-expand-lg  .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.signin-btn  a {
+    color: #fff;
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+
+
+/* Welcome Area CSS */
+
+.search-area {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    z-index: 1;
+}
+
+.searh-content h2 {
+    color: #fff;
+    font-size: 72px;
+}
+
+.searh-content h4 {
+    color: #fff;
+    margin-bottom: 0;
+    padding-left: 5px;
+}
+
+.search-form {
+    margin-top: 90px;
+    position: relative;
+    z-index: 1;
+}
+
+.search-form .nav-tabs {
+    border-bottom: none;
+}
+
+.search-form .nav-tabs .nav-link {
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgba(144, 103, 238, 0);
+    text-transform: uppercase;
+    min-width: 100px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0;
+    text-align: center;
+}
+
+.search-form .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: rgba(67, 25, 161, 1);
+    border-color: transparent;
+}
+
+.search-form .tab-content .tab-pane {
+    padding: 35px;
+}
+
+.search-form .tab-content .tab-pane h6 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.search-form .tab-content .tab-pane form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.search-form .tab-content .tab-pane form .custom-select {
+    height: 52px;
+    border-radius: 0;
+    padding: 0 80px 0 40px;
+    color: #72728c;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    margin-right: 10px;
+}
