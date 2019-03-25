@@ -1,0 +1,59 @@
+.category-link a:visited  {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+    color: white;
+    font-size: 17px;
+    font-weight: 22;
+}
+.category-link{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+    color: white;
+    font-size: 17px;
+    font-weight: 22;
+}
+.sigh-in  a:visited{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+    color: white;
+    font-size: 16px;
+    font-weight: 18;
+}
+.sigh-in{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px; 
+    color: white;
+    font-size: 16px;
+    font-weight: 18;
+}
+.sigh-in-link{
+    padding-left: 24px;
+}
+.header{
+    height: 575px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(almaty.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+.logo{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+    color: white;
+    font-size: 25px;
+}
+.marketing-txt{
+    text-align: center;
+    vertical-align: middle;
+    color: white;  
+    margin-top: 140px;
+}
+
