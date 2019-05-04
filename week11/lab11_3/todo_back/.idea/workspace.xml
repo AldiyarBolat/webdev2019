@@ -2,64 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b39ba074-7233-4c5e-970c-deea3d4f678e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/pyvenv.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/todo_back/api/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/todo_back/api/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/todo_back/api/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/todo_back/api/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/todo_back/api/migrations/0002_auto_20190407_1133.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/todo_back/api/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/todo_back/api/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/todo_back/api/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/todo_back/api/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/todo_back/api/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/todo_back/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/todo_back/todo_back/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/todo_back/todo_back/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/todo_back/todo_back/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab11/todo_back/todo_back/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/e2e/tsconfig.e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/components/viewer/viewer.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/components/viewer/viewer.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/components/viewer/viewer.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/components/viewer/viewer.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/models/models.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/services/main.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/services/main.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/services/provider.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/services/provider.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/tslint.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevPro/src/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevPro/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevPro/src/app/models/models.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_back/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week13/lab12/todo_back/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week13/lab12/todo_back/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week13/lab12/todo_back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week13/lab12/todo_back/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week13/lab12/todo_back/todo_back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week13/lab12/todo_back/todo_back/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,12 +21,12 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todo_back/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state relative-caret-position="840">
+              <caret line="56" selection-start-line="56" selection-end-line="56" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -84,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todo_back/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="75">
               <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -93,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -118,9 +68,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="45">
               <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -141,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="330">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -165,19 +120,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/todo_back/settings.py" />
         <option value="$PROJECT_DIR$/api/models.py" />
         <option value="$PROJECT_DIR$/todo_back/urls.py" />
         <option value="$PROJECT_DIR$/api/views.py" />
         <option value="$PROJECT_DIR$/api/urls.py" />
         <option value="$PROJECT_DIR$/api/admin.py" />
+        <option value="$PROJECT_DIR$/todo_back/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="797" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -216,6 +170,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -268,25 +225,22 @@
       <option name="presentableId" value="Default" />
       <updated>1555312893306</updated>
       <workItem from="1555312894911" duration="821000" />
+      <workItem from="1556439489736" duration="899000" />
+      <workItem from="1556509054926" duration="54000" />
+      <workItem from="1556511039090" duration="170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="821000" />
+    <option name="totallyTimeSpent" value="1944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="796" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -294,44 +248,26 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32891566" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/todo_back/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo_back/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todo_back/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="75">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -341,10 +277,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="45">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -359,13 +315,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/views.py">
+    <entry file="file://$PROJECT_DIR$/api/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo_back/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo_back/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" selection-start-line="56" selection-end-line="56" selection-end-column="28" />
         </state>
       </provider>
     </entry>

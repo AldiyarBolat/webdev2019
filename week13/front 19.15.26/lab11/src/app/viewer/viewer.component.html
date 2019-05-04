@@ -1,0 +1,34 @@
+<ng-container *ngIf="!logged">
+    <div>
+        <div><input type="text" [(ngModel)]="login"/></div>
+        <div><input type="text" [(ngModel)]="password"/></div>
+        <div><button (click)="auth()"> Log In</button></div>
+    </div>
+</ng-container>
+
+<ng-container *ngIf="logged">
+    CREATE TASKLIST:
+    <div>
+      <input type="text" [(ngModel)]="name" class="inputText" placeholder="New Task" />
+      <button (click)="createTaskList()">Create</button>
+    </div>
+    <div>
+      <div *ngFor="let c of taskLists">
+          <span (click)="getTaskOfTaskList(c)">
+            <input type="text" [(ngModel)]="c.name" />
+          </span>
+        <span style="color: red" (click)="deleteTaskList(c)"> Удалить</span>
+        <span style="color: green" (click)="updateTaskList(c)"> Изменить</span>
+      </div>
+    </div>
+    <br/>
+    Tasks:
+    <div>
+      <div *ngFor="let p of tasks">{{p.id}} - {{p.name}}</div>
+    </div>
+
+    <div>
+        <button (click)="logout()">Log out</button>
+    </div>
+</ng-container>
+

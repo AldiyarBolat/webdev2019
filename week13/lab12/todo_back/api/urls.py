@@ -10,5 +10,6 @@ urlpatterns = [
     re_path(r'api/task/(\d)', views.TaskView.as_view()),
 
     path('api/users/', views.UserList.as_view()),
-    path('api/login/', views.login)
+    path('api/login/', views.login),
+    path('api/logout/', views.logout),
 ]
