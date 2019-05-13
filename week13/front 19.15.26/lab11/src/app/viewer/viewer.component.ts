@@ -19,6 +19,11 @@ export class ViewerComponent implements OnInit {
   constructor(private provider: ProviderService) { }
 
   ngOnInit() {
+    const token = localStorage.getItem('token');
+    if (token) {
+      this.logged = true;
+    }
+
     if(this.logged){
       this.provider.getTaskLists().then(res => {
         this.taskLists = res;
@@ -65,8 +70,8 @@ export class ViewerComponent implements OnInit {
     }
   }
   logout() {
-    this.logged = false;
     this.provider.logout().then(res => {
+      this.logged = false;
       localStorage.clear();
 
     });

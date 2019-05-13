@@ -3,9 +3,16 @@ from django.contrib.auth.models import User
 from api.models import TaskList, Task
 
 
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ('id', 'username', 'email',)
+
+
 class TaskListSerializer(serializers.Serializer):
     id = serializers.IntegerField(read_only=True)
     name = serializers.CharField(required=True)
+    created_by = UserSerializer()
 
     def create(self, validated_data):
         taskList = TaskList(**validated_data)
@@ -21,11 +28,11 @@ class TaskListSerializer(serializers.Serializer):
 class TaskListSerializer2(serializers.ModelSerializer):
     id = serializers.IntegerField(read_only=True)
     name = serializers.CharField(required=True)
+    created_by = UserSerializer()
 
     class Meta:
         model = TaskList
-        fields = ('id', 'name',)
-
+        fields = ('id', 'name', 'created_by',)
 
 
 class TaskSerializer(serializers.Serializer):
@@ -48,7 +55,4 @@ class TaskSerializer(serializers.Serializer):
 
 
 
-class UserSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = User
-        fields = ('id', 'username', 'email',)
+

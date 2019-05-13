@@ -76,9 +76,7 @@ def tasks(request):
         return Response(serializer.errors, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 
-
 class TaskView(APIView):
-
     def get_object(self, pk):
         try:
            return Task.objects.get(id=pk)

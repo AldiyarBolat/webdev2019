@@ -1,10 +1,12 @@
 from django.db import models
 import datetime
 from datetime import datetime as dt
+from django.contrib.auth.models import User
 
 
 class TaskList(models.Model):
     name = models.CharField(max_length=200)
+    created_by = models.ForeignKey(User, on_delete=models.CASCADE, default=None, null=True)
 
     def __str__(self):
         return '{}: {}'.format(self.id, self.name)
